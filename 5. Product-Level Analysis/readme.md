@@ -16,6 +16,7 @@ WHERE created_at < '2013-01-04' -- Arbitrary
 GROUP BY 1,2;
 ```
 ![Alt text](1.png)
+
 Our revenue and margain are grew steadily increasing all year
 
 
@@ -40,6 +41,7 @@ WHERE S.created_at BETWEEN '2012-04-01' AND '2013-04-01' -- Arbitrary
 GROUP BY 1,2;
 ```
 ![Alt text](2.png)
+
 CVR and Revenu per session are improving over time
 
 
@@ -116,6 +118,7 @@ FROM Sessions_With_Next_Page_View_URL
 GROUP BY 1
 ```
 ![Alt text](4.png)
+
 the percent of `/products` pageviwes that clicked to `Mr-Fuzzy` has gone down since the launch of `Love-Bear`, but the ovreall click through rate has gone up.
 
 
@@ -194,6 +197,7 @@ FROM Session_Level_CVR
 GROUP BY 1;
 ```
 ![Alt text](5.png)
+
 ```sql
 -- Click Through Rate
 SELECT
@@ -206,8 +210,11 @@ FROM Session_Level_CVR
 GROUP BY 1
 ```
 ![Alt text](6.png)
+
 I had found that adding a second product increased overall click through rate from `/products` page
+
 `Love bear` has a better click rate to the `/cart` page
+
 Seems like the second product was a great addition for our business
 
 
@@ -307,6 +314,7 @@ FROM Full_data
 GROUP BY 1;
 ```
 ![Alt text](8.png)
+
 CTR from `/cart` page, products per order, average order value and revenue per cart session is all up slightly since the cross sell feature was added
 
 
@@ -333,6 +341,7 @@ WHERE website_sessions.created_at BETWEEN '2013-11-12' AND '2014-01-12'
 GROUP BY 1;
 ```
 ![Alt text](9.png)
+
 Seem all metrics have improved since we launched the third product 
 
 
