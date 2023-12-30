@@ -119,3 +119,41 @@ Working with **six related tables**, which contain **eCommerce** data about:
 #### Data Driven Report
 
 **Key Tables :**    website_sessions, website_pageviews, orders, order_items
+
+<a href='https://public.tableau.com/views/MavenFuzzyFactory-TrafficSourceAnalysis/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link'> Traffic Source Insight </a>
+
+![Alt text](<Insights/Dashboard 2.png>)
+
+
+<a href='https://public.tableau.com/views/MavenFuzzyFactory-Products/Products?:language=en-US&:display_count=n&:origin=viz_share_link'> Products Insight </a>
+
+![Alt text](<Insights/Dashboard 1.png>)
+
+
+<a href='https://public.tableau.com/views/MavenFuzzyFactory_17038676847260/SessionsVS_Orders?:language=en-US&:display_count=n&:origin=viz_share_link'> Sessions and Orders </a>
+
+![Alt text](<Insights/Sessions VS. Orders.png>)
+
+**Observation:**
+
+At the end of three years run of the businss, we can see pretty dramatic growth. When we look in the first quarter and now at about 100 times orders  
+
+<a href='https://public.tableau.com/views/MavenFuzzyFactory4/RevenueVS_Margin?:language=en-US&:display_count=n&:origin=viz_share_link'> Revenue and Margin </a>
+
+![Alt text](<Insights/Revenue VS. Margin.png>)
+
+**Observation:**
+
+Revenue and Margin tends to increase gradually from 2012 to 2015
+
+The company usually has the highest revenue and profit in the last quarters of a year
+
+<a href='https://public.tableau.com/views/MavenFuzzyFactory2/CVRRevenuePerSessionandOrder?:language=en-US&:display_count=n&:origin=viz_share_link'> Session-to-Order Conversion rate, Revenue Per Session, and Revenue Per Order </a>
+
+![Alt text](<Insights/Revenue Per (Session and Order) & CVR.png>)
+
+**Observation:**
+
+Volume of Website sessions and orders tend to increase gradually from 2012 to 2015
+
+Conversion rates typically range from about 0.03 to 0.9, which is between 3% and 9% of sessions converted into orders. This ratio is considered good and acceptable throughout the observation range
