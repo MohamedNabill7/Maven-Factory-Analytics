@@ -1,20 +1,10 @@
 # Maven-Factory-Analytics
 Maven Fuzzy Factory Data analysis using MySQL and visualize by Tableau.
 
-#### Introduction
-
-I worked as an eCommerce Database Analyst for Maven Fuzzy Factory, a new online retailer that had just launched its first product. I collaborated with the CEO, Marketing Manager, and Website Manager to analyze and optimize marketing channels, measure and test website conversion performance, and explore the product portfolio to understand the impact of new product launches in order to help the business make better decisions.
-
 
 #### Entity Relation Diagram
 
 ![Alt text](ERD.png)
-
-Working with **six related tables**, which contain **eCommerce** data about:
-
-    Website Activity
-    Products
-    Orders and Refunds
 
 **Six tables are:**
 
@@ -35,8 +25,9 @@ Working with **six related tables**, which contain **eCommerce** data about:
     
     UTM parameters: Are small pieces of code that are added to the end of a URL used to track the source of the traffic
     
-    By tracking them, businesses can see which of their paid marketing campaigns are most effective.They can also see how different traffic sources and 
-    campaigns are performing in terms of website activity and conversions.
+    By tracking them, businesses can see which of their paid marketing campaigns are most effective.
+    
+    They can also see how different traffic sources and campaigns are performing in terms of website activity and conversions.
 
      ------------- ------------------------------------------------------------------------- -------------------------
     | utm_source  | Identifies which site sent the traffic and is a required parameter.     | utm_source=google       |
